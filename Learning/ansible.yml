@@ -1,5 +1,5 @@
 ---
- - hosts: database
+ - hosts: master
  - become: true
  - tasks:
      - command: hostname

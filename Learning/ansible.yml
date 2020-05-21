@@ -2,5 +2,6 @@
  - hosts: web
    become: true
    tasks:
+     - command: sudo su
      - name: install nginx
        apt: name=nginx state=present update_cache=yes

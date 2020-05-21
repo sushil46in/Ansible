@@ -1,5 +1,5 @@
 [web]
-host001 ansible_user=ansible
+host001 ansible_user=ansible ansible_ssh_pass=Virgin123123  
 
 [master]
 ansible01 ansible_connection=local

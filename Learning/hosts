@@ -1,2 +1,5 @@
 [web]
 host001
+
+[master]
+ansible01
